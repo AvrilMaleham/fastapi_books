@@ -6,6 +6,16 @@ To view this project locally:
 
 Clone the app into the directory of your choice.
 
+### `python -m venv venv`
+### `source venv/bin/activate`  # On macOS/Linux
+### `venv\Scripts\activate`  # On Windows
+
+Create a virtual environment (optional but recommended).
+
+### `pip install -r requirements.txt`
+
+Install dependencies.
+
 ### `uvicorn books:app --reload`
 
 Runs the app.\
